@@ -45,12 +45,10 @@ const ContactForm = () => {
         <textarea name="message" placeholder="Your Message" value={formData.message} onChange={handleChange} required />
         <button type="submit">Send Email</button>
       </form>
-      <a className="text-animate">Phone:0400 868 220</a>
-      <a className="text-animate"> <br></br>Location: Melbourne,Victoria </a>
-      <a className="text-animate"> <br></br>Linkedin : </a>
-
+      <p className="text-animate">Phone:0400 868 220</p>
+      <p className="text-animate"> Location: Melbourne,Victoria </p>
       <a href="https://www.linkedin.com/in/deniljohn-90a2bb13" target="_blank" rel="noopener noreferrer">
-          linkedin.com/in/deniljohn
+          Linkedin:DenilJohn
           </a>
           <ToastContainer />
 
